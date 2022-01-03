@@ -29,4 +29,5 @@ function getDetails(place){
 function callMe(){
     var myplace = document.getElementById('place').value;
     getDetails(myplace)
+    console.log("working")
 }
